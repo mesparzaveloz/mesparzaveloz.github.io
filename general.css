@@ -1,0 +1,90 @@
+body {
+  background-color: gray;
+  background-image: url('images/desert.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    margin-top:35px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+  font-family: Arial;
+  padding: 10px;
+  text-decoration: underline;
+}
+h1 {
+    color: red;
+    text-transform: uppercase;
+    border: 2px solid yellow;
+    border-style: dashed;
+    border-bottom-width: 6px;
+    margin: 25px 180px;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    font-size: 55px;
+}
+
+h2 {
+  color: darkorange;
+  text-transform: capitalize;
+  margin: 20px;
+  letter-spacing: 1px;
+  word-spacing: 5px;
+  font-size: 45px;
+}
+
+.info-text {
+  font-family: lucida Sans;
+  font-size: 15px;
+  margin: 35px;
+  text-indent: 15px;
+  color: navy;
+  text-align: left;
+  line-height:1.4;
+}
+
+.block-right {
+  border: 1px solid gray;
+  margin-left: auto;
+  margin-right: 0;
+  width: 76%;
+  background-color: black;
+  text-align: justify;
+  padding: 8px;
+  color:white;
+  opacity:0.57;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  right: 0;
+  background-color: green;
+  width: 250px;
+  border: 3px solid #aCAF50;
+  color: white;
+}
+
+a:link {
+    color: orange; 
+    background-color: transparent; 
+    text-decoration: none;
+  }
+  
+a:visited {
+    color: brown;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+a:hover {
+    color: green;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
